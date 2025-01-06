@@ -1,53 +1,54 @@
-## General Election 2024 Analysis
+# General Election 2024 Analysis
 
-**About**
+## Introduction
+The General Election 2024 marks a significant political event, shaping the future leadership and policies of the nation. This project utilizes Power BI to analyze and visualize election data, focusing on performance metrics such as total votes, states involved, candidates, and political parties. The analysis aims to uncover key trends, highlight party performance, and provide insights into voter behavior and election outcomes.
 
-This project presents an analysis of the General Election 2024 using Power BI. The analysis focuses on visualizing key performance indicators (KPIs) and trends related to the election, including total votes, the number of states, total candidates, and total parties. The goal is to provide insights into the election results and party performances across different states.
+- Dataset link - [GE 2024](https://github.com/NishaChandila/GE-Election-2024-Report-/blob/main/GE_2024_Results.csv)
 
-**Problem Statement**
+- Power BI [Dashboard](https://github.com/NishaChandila/GE-Election-2024-Report-/blob/main/GE%20election%20report.jpg)
 
-The primary challenge was to effectively visualize and analyze election data to identify key trends and patterns. The data needed to be presented in a way that highlights the performance of major parties and states, making it easier to understand and interpret the election outcomes.
+## Dataset
+The dataset used for this analysis includes the following columns:
 
-**Solution**
+![Dataset](https://github.com/NishaChandila/project-assets/blob/main/GE%20election%20-%20dataset.PNG)
 
-To address this challenge, the following steps were taken using Power BI:
+- **ID**: Unique identifier for each entry.
+- **State**: The state where the election was held.
+- **Constituency**: The specific voting area within a state.
+- **Candidate**: The name of the individual contesting in the election.
+- **Party**: The political party representing the candidate.
+- **EVM Votes**: Votes cast using electronic voting machines.
+- **Postal Votes**: Votes submitted by postal ballot.
+- **Total Votes**: Combined total of EVM and postal votes.
+- **% of Votes**: Percentage of total votes secured by each candidate.
+- **Result**: Outcome of the election for each candidate (e.g., won, lost).
 
-**1. Data Integration:**
+- Dataset link - [GE 2024](https://github.com/NishaChandila/GE-Election-2024-Report-/blob/main/GE_2024_Results.csv)
 
-* Imported election data into Power BI, including details on total votes, states, candidates, and parties.
+## Power BI Dashboard Insights
+A Power BI dashboard was developed to present interactive visualizations of the election data:
 
-**2. KPI Visualization:**
+![analysis](https://github.com/NishaChandila/project-assets/blob/main/GE%20election%20report.jpg)
 
-* Created KPIs to display critical metrics:
+- **Key Performance Indicators (KPIs)**:
+  - Total Votes
+  - Number of States
+  - Total Candidates
+  - Total Parties
+- **Party Performance**: Bar charts illustrate the total vote counts for major parties, with BJP and Congress leading the vote share.
+- **State-wise Voting Trends**: West Bengal ranks among the top states with 60 million votes, while the state with the highest turnout records 88 million votes.
+- **Interactive Features**: Users can filter data by state, party, or candidate to explore detailed election outcomes.
 
-* Total Votes
-  
-* Number of States
-  
-* Total Candidates
-  
-* Total Parties
-  
-**3. Bar Charts:**
+- Power BI [Dashboard](https://github.com/NishaChandila/GE-Election-2024-Report-/blob/main/GE%20election%20report.jpg)
 
-Developed bar charts to visualize:
+## Recommendations
+1. **Party Performance Monitoring**: Continuous tracking of key party metrics can guide campaign strategies for future elections.
+2. **Regional Focus**: States with high voter turnout should be analyzed to identify factors contributing to electoral engagement.
+3. **Voter Education**: Encouraging participation in postal voting could improve accessibility and inclusivity in future elections.
+4. **Data-Driven Strategy**: Utilizing insights from voting trends can help political parties better align their messaging and outreach efforts.
 
-* The top 5 parties, including BJP and Congress, highlighting their total vote counts.
-  
-* The top 5 states by total votes, with West Bengal receiving 60 million votes and the highest state with 88 million votes.
-  
-**Interactive Dashboards:**
+This analysis provides a dynamic and informative view of the General Election 2024, supporting a deeper understanding of political performance and electoral dynamics through data visualization and analytics.
 
-* Designed interactive dashboards to allow users to explore the data, filter by parties and states, and gain a deeper understanding of the election results.
+- Dataset link - [GE 2024](https://github.com/NishaChandila/GE-Election-2024-Report-/blob/main/GE_2024_Results.csv)
 
-**Key Findings**
-
-* The bar charts clearly show the dominance of major parties like BJP and Congress.
-
-* West Bengal and the top state with 88 million votes are highlighted as significant contributors to the overall vote count.
-
-* The KPIs provide a quick overview of the election metrics, facilitating easy comparison and analysis.
-
-**Conclusion**
-
-This General Election 2024 analysis using Power BI offers a comprehensive view of the election results, focusing on key metrics and visualizing the performance of top parties and states. The insights gained from this analysis support a better understanding of the election dynamics and outcomes.
+- Power BI [Dashboard](https://github.com/NishaChandila/GE-Election-2024-Report-/blob/main/GE%20election%20report.jpg)
